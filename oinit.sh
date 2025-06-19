@@ -60,7 +60,7 @@ echo 'export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib:/usr/lib64;' | tee -
 echo 'export CLASSPATH=$ORACLE_HOME/JRE:$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib;' | tee -a /home/oracle/.bashrc
 
 #let's download and unpack the binary
-wget https://github.com/tekaohswg/gdown.pl/archive/v1.4.zip
+wget https://github.com/circulosmeos/gdown.pl/archive/v1.4.zip
 unzip v1.4.zip
 rm v1.4.zip
 ./gdown.pl-1.4/gdown.pl 'https://drive.google.com/open?id=17wfbfZuL90z4Z_FZPHK7l8FecepZ3dyP' 'LINUX.X64_180000_db_home.zip'
